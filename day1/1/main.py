@@ -1,3 +1,5 @@
+# find 2 numbers in a list that add to 2020
+
 f = open("input.txt")
 s = set()
 lines = f.readlines()
