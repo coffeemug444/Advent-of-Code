@@ -3,6 +3,7 @@
 f = open("input.txt")
 s = set()
 lines = f.readlines()
+f.close()
 for line in lines:
     i = int(line)
     if 2020 - i in s:

@@ -5,6 +5,7 @@ numbers = set()
 offs = set()
 
 lines = f.readlines()
+f.close()
 for line in lines:
     i = int(line)
     numbers.add(i)
