@@ -84,6 +84,8 @@ def verify(field, data):
     if field == "cid":
         return True
 
+    return False
+
 valids = 0
 infields = []
 passport_data = []
