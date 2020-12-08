@@ -43,4 +43,15 @@ for line in lines:
             DG.add_node(bagcolour)
             DG.add_edge(parentbagcolour, bagcolour, weight=int(col[0]))
 
-print(get_num_children(DG, "shinygold"))
+#print(get_num_children(DG, "shinygold"))
+
+maximum = 0
+name = ""
+for bag in bags:
+    num = get_num_children(DG, bag)
+    print(num)
+    if num > maximum:
+        name = bag
+        maximum = num
+        
+print(name, "contains", maximum, "other bags")
