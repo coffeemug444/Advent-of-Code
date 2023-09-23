@@ -54,7 +54,5 @@ std::vector<std::string> open_lines(std::string_view file_path)
       lines.push_back(line);
    }
 
-   lines.pop_back(); // copy-pasting the input always adds an extra line
-
    return lines;
 }
