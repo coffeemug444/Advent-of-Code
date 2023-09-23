@@ -12,3 +12,4 @@
 #include <string>
 #include <array>
 #include <cmath>
+#include <cassert>
